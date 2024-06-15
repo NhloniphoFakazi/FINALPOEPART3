@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="1000_F_205050369_8proIS1oQ6Ugw7y2Bar65ocgcwx2nk7l.jpg" />
+    <None Remove="102730797-bakery-ingredients-for-baking-on-blue-table-various-food-products-top-view-flat-lay-high-resolution.jpg" />
+    <None Remove="360_F_519803322_E1yXLsws0iXLn7xa9lnXegyAfyPbMLCg.jpg" />
+    <None Remove="7a6bb32e6afc516f9f1fcd23c08d1f88d068e38d5e8d3c4c86d7dfca6c63195e.jpg" />
+    <None Remove="84059815-food-seasoning-background-blue-coloured-rustic-wooden-background-lemon-slices-herbs-pepper-sea-salt.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="1000_F_205050369_8proIS1oQ6Ugw7y2Bar65ocgcwx2nk7l.jpg" />
+    <Resource Include="102730797-bakery-ingredients-for-baking-on-blue-table-various-food-products-top-view-flat-lay-high-resolution.jpg" />
+    <Resource Include="360_F_519803322_E1yXLsws0iXLn7xa9lnXegyAfyPbMLCg.jpg" />
+    <Resource Include="7a6bb32e6afc516f9f1fcd23c08d1f88d068e38d5e8d3c4c86d7dfca6c63195e.jpg" />
+    <Resource Include="84059815-food-seasoning-background-blue-coloured-rustic-wooden-background-lemon-slices-herbs-pepper-sea-salt.jpg" />
+  </ItemGroup>
+
+</Project>
